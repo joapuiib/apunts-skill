@@ -184,8 +184,23 @@ ordre [-o | --opcio] <argument>
 - `[-o | --opcio]`: (opcional) què fa l'opció.
 - `<argument>`: què representa l'argument.
 
+!!! docs "Documentació oficial: [:octicons-link-external-16: `ordre`](https://...) – :simple-git: Git"
+````
+
+Si l'admonició `docs` només té un enllaç, posa'l en el títol amb el format següent:
+
+```markdown
+!!! docs "Documentació [oficial]: [:octicons-link-external-16: Títol](https://...) – Font"
+```
+
+Afig _oficial_ només si l'enllaç apunta a la documentació oficial de la ferramenta o del tema.
+
+Si en té diversos, utilitza un títol genèric i una llista d'enllaços en el cos:
+
+````markdown
 !!! docs "Documentació oficial de :simple-git: Git"
-    [:octicons-link-external-16: `ordre`](https://...)
+    - [:octicons-link-external-16: `ordre1`](https://...)
+    - [:octicons-link-external-16: `ordre2`](https://...)
 ````
 
 Quan hi ha diverses alternatives equivalents (terminal o entorn gràfic, diverses tècniques),
@@ -231,11 +246,14 @@ No abuses de les admonicions: si gairebé cada paràgraf en porta una, deixen de
 Utilitza-les només per a informació que complementa o adverteix; les explicacions principals
 van en el text.
 
-Si l'admonició és d'una sola línia, inclou el text en el títol:
+Si l'admonició és d'una sola línia, inclou el text en el títol i no escrigues cos:
 
 ```markdown
 !!! important "Contingut de l'avís, amb __negreta__ i `codi` si cal."
 ```
+
+No escrigues mai un títol genèric seguit d'una sola línia de cos. L'excepció són les solucions
+desplegables (`??? solution`), on el cos amaga la resposta.
 
 Si necessita més detall (codi, una consulta, una llista), posa el missatge principal
 al títol i el detall al cos:
