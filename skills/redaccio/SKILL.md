@@ -342,16 +342,28 @@ Escriu els enunciats en imperatiu de segona persona del singular.
 
 Divideix l'exercici en passos numerats, amb un sol objectiu per pas.
 
-Inclou les solucions en una admonició desplegable:
+Inclou les solucions en una admonició desplegable i controla sempre si es mostren amb
+el camp `solution` de la capçalera del document. Envolta cada solució amb
+`{% if page.meta.solution %}` i `{% endif %}`, escrits a l'inici de la línia:
 
 ````markdown
+---
+title: "Exercici: ..."
+solution: false
+---
+
 1. Crea una base de dades anomenada `botiga`.
 
+{% if page.meta.solution %}
     ??? solution "Solució"
         ```sql
         CREATE DATABASE botiga;
         ```
+{% endif %}
 ````
+
+Amb `solution: false`, les solucions no s'inclouen en la pàgina generada. Per publicar-les,
+n'hi ha prou amb canviar el valor a `true`.
 
 ## Revisió
 
