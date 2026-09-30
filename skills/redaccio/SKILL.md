@@ -286,6 +286,7 @@ Tria el tipus segons la intenció:
 | `prep`      | Preparació de l'entorn per als exemples             |
 | `docs`      | Enllaços a la documentació oficial                  |
 | `solution`  | Solucions dels exercicis                            |
+| `extension` | Ampliació opcional d'un exercici concret           |
 
 Utilitza `???` (desplegable) per al contingut opcional o extens, com exemples, taules de valors,
 preparacions o solucions, i `!!!` per al que s'ha de llegir sempre.
@@ -364,6 +365,25 @@ solution: false
 
 Amb `solution: false`, les solucions no s'inclouen en la pàgina generada. Per publicar-les,
 n'hi ha prou amb canviar el valor a `true`.
+
+Proposa les ampliacions opcionals en un apartat `Ampliacions` al final del document,
+amb una frase introductòria i una llista. El títol de l'apartat porta la icona del coet
+en el color de les ampliacions:
+
+```markdown
+### [:material-rocket-launch-outline:]{style="color: var(--md-admonition-color--extension)"} Ampliacions
+
+Si has acabat els exercicis anteriors, pots aprofundir amb aquestes propostes:
+
+- Investiga la seguretat a nivell de fila i aplica-la a la taula `notes`.
+```
+
+Si una ampliació només afecta un exercici concret, posa-la just després d'aquest exercici
+en una admonició `extension` d'una sola línia:
+
+```markdown
+!!! extension "Comprova què ocorre si et connectes amb `sslmode=disable`."
+```
 
 ## Revisió
 
