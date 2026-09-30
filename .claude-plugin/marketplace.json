@@ -1,0 +1,13 @@
+{
+  "name": "joapuiib",
+  "owner": {
+    "name": "Joan Puigcerver"
+  },
+  "plugins": [
+    {
+      "name": "apunts",
+      "source": "./",
+      "description": "Pràctiques d'escriptura per redactar apunts, exercicis i resums didàctics en valencià amb MkDocs Material."
+    }
+  ]
+}
