@@ -1,5 +1,6 @@
 {
   "name": "joapuiib",
+  "description": "Plugins de Claude Code per a la creació de material didàctic.",
   "owner": {
     "name": "Joan Puigcerver"
   },
