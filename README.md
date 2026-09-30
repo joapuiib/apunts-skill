@@ -1,4 +1,4 @@
-# claude-apunts
+# apunts-skill
 
 _Plugin_ de [Claude Code](https://claude.com/claude-code) amb pràctiques d'escriptura
 per redactar apunts, exercicis i resums didàctics en valencià amb MkDocs Material.
@@ -14,7 +14,7 @@ per redactar apunts, exercicis i resums didàctics en valencià amb MkDocs Mater
 Des de Claude Code:
 
 ```text
-/plugin marketplace add joapuiib/claude-apunts
+/plugin marketplace add joapuiib/apunts-skill
 /plugin install apunts@joapuiib
 ```
 
