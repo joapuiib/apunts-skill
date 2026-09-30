@@ -195,7 +195,11 @@ Si l'admonició `docs` només té un enllaç, posa'l en el títol amb el format 
 
 Afig _oficial_ només si l'enllaç apunta a la documentació oficial de la ferramenta o del tema.
 
-Si en té diversos, utilitza un títol genèric i una llista d'enllaços en el cos:
+Posa cada enllaç a la documentació en l'apartat que documenta (per exemple, `CREATE TABLESPACE`
+en l'apartat de creació i `DROP TABLESPACE` en el d'eliminació), i no agrupes al final d'una secció
+enllaços d'apartats diferents.
+
+Si un mateix apartat té diversos enllaços, utilitza un títol genèric i una llista d'enllaços en el cos:
 
 ````markdown
 !!! docs "Documentació oficial de :simple-git: Git"

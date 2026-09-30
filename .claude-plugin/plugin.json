@@ -1,6 +1,6 @@
 {
   "name": "apunts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pràctiques d'escriptura per redactar apunts, exercicis i resums didàctics en valencià amb MkDocs Material.",
   "author": {
     "name": "Joan Puigcerver"
