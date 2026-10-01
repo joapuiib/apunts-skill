@@ -293,10 +293,13 @@ preparacions o solucions, i `!!!` per al que s'ha de llegir sempre.
 
 ## Blocs d'una línia
 
-Si un bloc `///` només té una línia de contingut, escriu-lo en una sola línia:
+Si un bloc `///` només té una línia de contingut, escriu-lo en una sola línia
+(sintaxi de `pymdown-inline-blocks`):
 
 ```markdown
+/// figure-caption: Text de la llegenda.
 /// figure-caption | #figure-id : Text de la llegenda.
+/// attribution: Autoria de la imatge.
 ```
 
 en lloc de:
@@ -305,7 +308,17 @@ en lloc de:
 /// figure-caption
 Text de la llegenda.
 ///
+
+/// attribution
+Autoria de la imatge.
+///
 ```
+
+La regla s'aplica a qualsevol tipus de bloc (`figure-caption`, `shadow-figure-caption`,
+`attribution`, `caption`...), no només a les llegendes. En revisar o reescriure un fitxer,
+converteix a la forma d'una línia tots els blocs existents que només tinguen una línia de contingut.
+Els blocs amb més d'una línia, o amb contingut de bloc (llistes, codi, blocs niats), es queden
+en la forma multilínia.
 
 ## Figures
 
@@ -333,6 +346,16 @@ Marca els enllaços externs amb la icona `:octicons-link-external-16:` i indica 
 ```
 
 Agrupa les lectures complementàries en una admonició `!!! info "Més informació"`.
+
+Si el document ja té un apartat dedicat als enllaços (_Recursos_, _Bibliografia_, _Referències_...),
+mantín-lo com a apartat i escriu els enllaços com una llista normal, sense admonició:
+
+```markdown
+## Recursos
+
+- [:octicons-link-external-16: Use Case Diagrams](https://www.uml-diagrams.org/use-case-diagrams.html) – uml-diagrams.org
+- [:octicons-link-external-16: UML Use Case Diagram Tutorial](https://www.youtube.com/watch?v=zid-MVo7M-E) – Lucid Software
+```
 
 Si un enllaç es repeteix o és molt llarg, utilitza enllaços de referència (`[text][ref]`)
 i defineix `[ref]: url` just després del paràgraf.
@@ -391,5 +414,7 @@ Mantín el contingut tècnic original: no inventes paràmetres, valors ni compor
 
 Corregeix els errors ortogràfics i gramaticals, com les formes no valencianes (_seva_ per _seua_),
 l'apostrofació (_de Incorporació_ per _d'Incorporació_) o els castellanismes.
+
+Converteix a una sola línia tots els blocs `///` d'una línia de contingut (apartat _Blocs d'una línia_).
 
 En acabar, indica quins continguts nous has afegit perquè es puguen validar.
