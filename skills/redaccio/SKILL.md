@@ -11,10 +11,10 @@ Escriu en valencià normatiu i utilitza __sempre les formes occidentals o valenc
 
 | Utilitza                                            | En lloc de                          |
 |-----------------------------------------------------|-------------------------------------|
-| Subjuntiu en _-e_: _es connecte_, _estiga_, _puga_  | _es connecti_, _estigui_, _pugui_   |
+| Subjuntiu en _-e_, _-es_, _-en_: _es connecte_, _estiga_, _aparegues_, _tinguen_ | _es connecti_, _estigui_, _apareguis_, _tinguin_ |
 | Primera persona en _-e_: _recomane_, _utilitze_     | _recomano_, _utilitzo_              |
 | Incoatius en _-eix_: _defineix_, _serveix_         | _definix_, _servix_                 |
-| Subjuntiu incoatiu en _-isca_: _oferisca_, _definisca_ | _ofereixi_, _defineixi_         |
+| Subjuntiu incoatiu en _-isca_, _-isques_, _-isquen_: _oferisca_, _definisques_ | _ofereixi_, _defineixis_ |
 | Possessius: _seua_, _teua_, _meua_                  | _seva_, _teva_, _meva_              |
 | Infinitius: _tindre_, _vindre_, _vore_, _traure_    | _tenir_, _venir_, _veure_, _treure_ |
 | Accentuació: _conéixer_, _anglés_, _francés_        | _conèixer_, _anglès_, _francès_     |
@@ -394,7 +394,7 @@ amb una frase introductòria i una llista. El títol de l'apartat porta la icona
 en el color de les ampliacions:
 
 ```markdown
-### [:material-rocket-launch-outline:]{style="color: var(--md-admonition-color--extension)"} Ampliacions
+### :material-rocket-launch-outline:{ style="color: var(--md-admonition-color--extension)" } Ampliacions
 
 Si has acabat els exercicis anteriors, pots aprofundir amb aquestes propostes:
 
