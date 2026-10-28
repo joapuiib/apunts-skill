@@ -71,6 +71,10 @@ Si un concepte es pot interpretar de més d'una manera, deixa clar a què es ref
 Enllaça els paràgrafs amb connectors (_No obstant això_, _A més_, _Per tant_, _És a dir_,
 _D'una altra banda_) perquè el text es llija de manera fluida.
 
+No abuses dels connectors ni repetisques el mateix en paràgrafs propers (_A més_, _No obstant això_).
+Alterna'ls (_Tot i això_, _Alhora_, _Per això_) o reescriu la frase perquè no els necessite
+(_També_ dins de la frase, o començant directament per l'afirmació). Evita _Així mateix_.
+
 No repetisques informació que ja apareix en una altra part del document: enllaça la secció
 corresponent (_Vegeu [Canviar de branca](#canviar-de-branca)_).
 
@@ -221,8 +225,7 @@ presenta-les en pestanyes:
 ## Exemples
 
 Escriu els exemples en una admonició desplegable amb el títol `Exemple: ...`.
-Introdueix-los amb una frase, mostra el codi o el resultat i explica després què s'observa
-(_S'observa que..._, _Es pot comprovar que..._):
+Introdueix-los amb una frase, mostra el codi o el resultat i explica després què s'observa:
 
 ````markdown
 ??? example "Exemple: Mostrar les branques"
@@ -234,6 +237,15 @@ Introdueix-los amb una frase, mostra el codi o el resultat i explica després qu
 
     S'observa que només hi ha una branca, anomenada `main`.
 ````
+
+Per a explicar el resultat, utilitza la fórmula que preferisques: _S'observa que..._,
+_Es pot comprovar que..._, _Ara..._, _Igual que abans,..._ o directament l'afirmació
+(_La reserva més recent ocupa la posició `stash@{0}`._). Segueix aquests criteris:
+
+- __Coherència__: mantín el mateix registre (forma impersonal, mateix temps verbal) en tot el document.
+- __Varietat__: no comences dos exemples propers amb la mateixa expressió. Si en tens molts,
+    alterna les fórmules o enllaça amb l'anterior (_De nou,..._).
+- __Concisió__: si el resultat és evident, n'hi ha prou amb dir què ha canviat.
 
 Mantín els exemples consistents, almenys dins d'un mateix document: utilitza el mateix escenari
 (el mateix repositori, base de dades, noms i valors) i dades realistes, de manera que cada exemple
