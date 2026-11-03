@@ -80,6 +80,13 @@ Si elimines un connector, comprova que el paràgraf continue enllaçat amb l'ant
 Varia també les preposicions i locucions instrumentals: no abuses de _mitjançant_, i alterna-la
 amb _amb_, _a través de_, _per mitjà de_ o _gràcies a_ segons el sentit.
 
+Evita el pronom adverbial __hi__ quan no aporta res, perquè en valencià se sol ometre.
+Elimina'l si el referent ja és clar pel context o si la frase repeteix el complement:
+_per a fer canvis_ (no _per a fer-hi canvis_), _publicar canvis_ (no _publicar-hi canvis_),
+_si no s'està acostumat_ (no _si no s'hi està acostumat_). Si el referent és ambigu,
+reescriu la frase amb el complement explícit (_associar una branca remota a la branca local_).
+Manté _hi_ només en l'ús existencial (_hi ha_, _hi havia_) o quan és imprescindible per al sentit.
+
 No repetisques informació que ja apareix en una altra part del document: enllaça la secció
 corresponent (_Vegeu [Canviar de branca](#canviar-de-branca)_).
 
