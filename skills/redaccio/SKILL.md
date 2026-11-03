@@ -72,8 +72,13 @@ Enllaça els paràgrafs amb connectors (_No obstant això_, _A més_, _Per tant_
 _D'una altra banda_) perquè el text es llija de manera fluida.
 
 No abuses dels connectors ni repetisques el mateix en paràgrafs propers (_A més_, _No obstant això_).
-Alterna'ls (_Tot i això_, _Alhora_, _Per això_) o reescriu la frase perquè no els necessite
+Alterna'ls (_Tot i això_, _Per això_, _D'altra banda_) o reescriu la frase perquè no els necessite
 (_També_ dins de la frase, o començant directament per l'afirmació). Evita _Així mateix_.
+No utilitzes _Alhora_ com a substitut d'_A més_: significa «al mateix temps», no «afegit a».
+Si elimines un connector, comprova que el paràgraf continue enllaçat amb l'anterior.
+
+Varia també les preposicions i locucions instrumentals: no abuses de _mitjançant_, i alterna-la
+amb _amb_, _a través de_, _per mitjà de_ o _gràcies a_ segons el sentit.
 
 No repetisques informació que ja apareix en una altra part del document: enllaça la secció
 corresponent (_Vegeu [Canviar de branca](#canviar-de-branca)_).
@@ -126,7 +131,7 @@ SELECT current_user, current_database();
 ///
 ````
 
-No incloguis mai contrasenyes, claus ni dades reals: utilitza valors d'exemple.
+No inclogues mai contrasenyes, claus ni dades reals: utilitza valors d'exemple.
 
 ## Capçaleres
 
@@ -152,7 +157,7 @@ codi, posa'l dins de l'element, indentat.
 
 ## Paràmetres i opcions
 
-No incloguis frases «Per exemple, ...» dins de la definició d'un paràmetre. Documenta els valors
+No inclogues frases «Per exemple, ...» dins de la definició d'un paràmetre. Documenta els valors
 possibles en una admonició desplegable just baix de l'element, amb una taula:
 
 ```markdown
@@ -238,13 +243,19 @@ Introdueix-los amb una frase, mostra el codi o el resultat i explica després qu
     S'observa que només hi ha una branca, anomenada `main`.
 ````
 
+Varia també la frase d'introducció: quan hi ha diversos exemples seguits, no els comences tots amb
+_Es mostra..._ o _Es crea..._; alterna-la amb la finalitat (_Per filtrar-les, ..._) o amb un
+enllaç amb l'anterior (_De manera semblant, ..._). En un exemple aïllat, la forma directa és correcta.
+
 Per a explicar el resultat, utilitza la fórmula que preferisques: _S'observa que..._,
 _Es pot comprovar que..._, _Ara..._, _Igual que abans,..._ o directament l'afirmació
 (_La reserva més recent ocupa la posició `stash@{0}`._). Segueix aquests criteris:
 
 - __Coherència__: mantín el mateix registre (forma impersonal, mateix temps verbal) en tot el document.
 - __Varietat__: no comences dos exemples propers amb la mateixa expressió. Si en tens molts,
-    alterna les fórmules o enllaça amb l'anterior (_De nou,..._).
+    alterna les fórmules o enllaça amb l'anterior (_De nou,..._). No utilitzes _S'observa que..._
+    ni _Es pot comprovar que..._ més de 2 o 3 vegades per document: reserva-les per a les
+    conclusions que no són òbvies i, en la resta de casos, afirma directament el resultat.
 - __Concisió__: si el resultat és evident, n'hi ha prou amb dir què ha canviat.
 
 Mantín els exemples consistents, almenys dins d'un mateix document: utilitza el mateix escenari
