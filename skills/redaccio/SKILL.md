@@ -365,7 +365,8 @@ Si la imatge té versió clara i fosca, inclou totes dues:
 /// figure-caption | #figure-nom : Descripció amb `codi` si cal.
 ```
 
-Referencia les figures des del text amb el seu identificador: `[Figura 1](#figure-nom)`.
+Referencia les figures des del text amb el seu identificador, amb la sintaxi `[@figure-nom]`
+(plugin `xref`): genera automàticament el text «Figura N» i l'enllaç. No escrigues `[Figura 1](#figure-nom)`.
 
 ## Enllaços
 
